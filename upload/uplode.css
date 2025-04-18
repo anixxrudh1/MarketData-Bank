@@ -1,0 +1,151 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f9fc;
+    color: #1f2937;
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .navbar .nav-links li a {
+    text-decoration: none;
+    color: #1f2937;
+    font-weight: 500;
+  }
+  
+  /* Upload Section */
+  .upload-section {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+  }
+  
+  .upload-section h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .upload-section p {
+    font-size: 1rem;
+    color: #6b7280;
+    margin-bottom: 30px;
+  }
+  
+  /* Form styles */
+  form label {
+    display: block;
+    margin-top: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  
+  form input[type="text"],
+  form textarea,
+  form select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  
+  form textarea {
+    resize: vertical;
+  }
+  
+  .file-drop {
+    border: 2px dashed #cbd5e1;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #f1f5f9;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .file-drop p {
+    margin-bottom: 5px;
+  }
+  
+  .file-drop small {
+    color: #6b7280;
+  }
+  
+  #fileInput {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  button {
+    display: block;
+    margin-top: 30px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2563eb;
+  }
+  
+  /* Data Bank Section */
+  .data-bank-info {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+  }
+  
+  .data-bank-info img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .data-bank-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .data-bank-info p {
+    color: #4b5563;
+  }
+  
